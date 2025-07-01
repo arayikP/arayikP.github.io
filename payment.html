@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="icon" type="x-icon" href="./img/page style/logo 2.png">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="icon" type="x-icon" href="./img/page style/logo 2.png">
+</head>
+
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/page style/logo 1.png" alt="TechZone Logo">
+                </a>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search..." />
+            </div>
+
+            <div class="search-results" id="searchResults">
+                <!-- Results will be populated here -->
+            </div>
+
+
+
+                    <!-- Main Navigation (hidden on mobile) -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#footer-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!-- Icons -->
+            <div class="header-icons">
+                <a href="wishlist.html" class="icon-link"><i class="fa-solid fa-heart"></i></a>
+                <a href="./cart.html" class="icon-link"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            <!-- Burger Menu Button (visible on mobile) -->
+            <button class="burger-menu" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+
+            <!-- Burger Dropdown Menu -->
+            <nav class="burger-dropdown">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#footer-link">Contact Us</a></li>
+                </ul>
+            </nav>
+
+    
+        </div>
+    </div>
+</header>
+
+
+
+
+
+    <main>
+
+        <section>
+            <div class="step-header">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Step 1</p>
+                    <p>Address</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <p>Step 2 </p>
+                    <p>Shipping</p>
+                </div>
+
+                <div class="active">
+                    <i class="fa-solid fa-money-bill"></i>
+                    <p>Step 3</p>
+                    <p>Payment </p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section>
+
+             <div class="payment-methods">
+                    <h2>Payment</h2>
+                    <div class="method-tabs">
+                        <button class="method-tab active" data-method="card">Card</button>
+                    </div>
+                </div>
+            <section class="payment-section">
+               
+
+                <!-- Summary Section -->
+                <div class="summary-container">
+                    <h3>Summary</h3>
+                    <div id="shoping-finish" class="cart-items">
+                        
+                    </div>
+
+                    <div class="order-details">
+                        <div class="detail-row">
+                            <span class="contactForm">Customer name</span>
+                            <span id="customerName"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="contactForm">Customer address</span>
+                            <span id="customerAddress"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="contactForm">Customer phone number</span>
+                            <span id="customerPhone"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="contactForm">Shipment method</span>
+                            <span id="shippingMethod"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="contactForm">Subtotal</span>
+                            <span id="subtotal"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="contactForm">Estimated Tax</span>
+                            <span id="tax"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="contactForm">Estimated shipping & Handling</span>
+                            <span id="estimated"></span>
+                        </div>
+                        <div class="detail-row total">
+                            <span class="contactForm">Total</span>
+                            <span id="fullTotal" ></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Credit Card Form Section -->
+                <div class="card-form-container">
+                    <div class="card-preview">
+                        <div class="card-chip"></div>
+                        <div class="card-number">Card Number</div>
+                        <div class="card-holder">Card Holder</div>
+                        <div class="card-expiry"></div>
+                        <div class="card-type"></div>
+                    </div>
+
+                    <div class="card-form">
+                        <div class="form-group">
+                            <label>Cardholder Name</label>
+                            <input type="text" id="cardHolder" placeholder="Enter cardholder name">
+                        </div>
+                        <div class="form-group">
+                            <label>Card Number</label>
+                            <input type="text" id="cardNumber" maxlength="19" placeholder="Enter card number">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Exp Date</label>
+                                <input type="text" id="expDate" maxlength="5" placeholder="MM/YY">
+                            </div>
+                            <div class="form-group">
+                                <label>CVV</label>
+                                <input type="text" id="cvv" maxlength="3" placeholder="***">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="button-group">
+                        <a href="./shipping.html"><button class="back-btn">Back</button></a>
+                        <button class="pay-btn">Pay</button>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+
+            <!-- Success Modal Section -->
+            <section class="success-modal">
+                <div class="modal-content">
+                    <div class="success-icon">✓</div>
+                    <h3>The payment was successful.</h3>
+                    <div class="order-info">
+                        <p class="delivery-address">Delivery to: 1131 Dusty Townline, Jacksonville, TX 40322</p>
+                        <p class="card">Payment method։ Card</p>
+                        <p class="recipient">Recipient: John Doe</p>
+                        <p class="amount">Amount paid: $2426</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+
+
+
+
+        
+        <!-- Chat BTN -->
+        <div class="message">
+            <button id="chatBtn">
+                <i class="fa-solid fa-message"></i>
+            </button>
+        </div>
+        <div class="chat-modal" id="chatModal">
+            <div class="chat-header">
+                <h3>Question</h3>
+                <button class="close-chat" id="closeChat">&times;</button>
+            </div>
+            <div class="chat-body">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+374 23152016" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Please write the question..." required></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">Send</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Footer -->
+        <footer class="footer" id="footer-link">
+            <div class="footer-container">
+                <!-- Company Info -->
+                <div class="footer-column company-info">
+                    <div class="footer-logo">
+                        <img src="./img/page style/logo 1.png" alt="TechZone Logo">
+                    </div>
+                    <p>Miscellaneous equipment specialty store</p>
+                    <div class="social-links">
+                <a href="https://www.instagram.com/_tech_z0ne_/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                </div>
+                <!-- Contact Info -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="contact-info">
+                        <p class="address"> 1 Movses Khorenatsi Street, Vagharshapat, Armenia</p>
+                        <p class="phone"> +374 23152016</p>
+                        <p class="email"> info@TechZone.com</p>
+                    </div>
+                </div>
+                <!-- Map -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Location</h4>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1580.4049884460617!2d44.28787868909185!3d40.16241582863755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406a94d170000eb9%3A0x214e65b0d0e4d9de!2sEchmiadzin%20State%20College%20after%20Vardges%20Hamazaspyan!5e1!3m2!1sen!2sus!4v1734327853330!5m2!1sen!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </main>
+
+    <script src="./js/payment.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/src.js"></script>
+
+</body>
+
+</html>

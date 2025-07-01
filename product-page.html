@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="icon" type="x-icon" href="./img/page style/logo 2.png">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="icon" type="x-icon" href="./img/page style/logo 2.png">
+
+</head>
+
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/page style/logo 1.png" alt="TechZone Logo">
+                </a>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search..." />
+            </div>
+
+            <div class="search-results" id="searchResults">
+                <!-- Results will be populated here -->
+            </div>
+
+
+
+                    <!-- Main Navigation (hidden on mobile) -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#footer-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!-- Icons -->
+            <div class="header-icons">
+                <a href="wishlist.html" class="icon-link"><i class="fa-solid fa-heart"></i></a>
+                <a href="./cart.html" class="icon-link"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            <!-- Burger Menu Button (visible on mobile) -->
+            <button class="burger-menu" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+
+            <!-- Burger Dropdown Menu -->
+            <nav class="burger-dropdown">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#footer-link">Contact Us</a></li>
+                </ul>
+            </nav>
+
+    
+        </div>
+    </div>
+</header>
+
+
+
+
+    <div class="product-container">
+        <div class="product-gallery">
+            <div class="thumbnails">
+
+            </div>
+            <div class="main-image">
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h1 class="product-title"></h1>
+
+            <div class="product-price">
+                <div class="current-price">$</div>
+            </div>
+
+            <div class="storage-text">Memory</div>
+            <div class="storage-options storage-options-memory">
+                <div class="storage-option" >64GB</div>
+                <div class="storage-option">128GB</div>
+                <div class="storage-option ">256GB</div>
+                <div class="storage-option">512GB</div>
+                <div class="storage-option">1TB</div>
+            </div>
+
+            <div class="storage-text">RAM</div>
+            <div class="storage-options storage-options-ram ">
+                
+                <div class="storage-option">4 GB</div>
+                <div class="storage-option">8 GB</div>
+                <div class="storage-option">16 GB</div>
+                <div class="storage-option ">32 GB</div>
+            </div>
+
+
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <div class="spec-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <div class="spec-title">Screen size</div>
+                    <div class="spec-value"></div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon"><i class="fa-solid fa-gear"></i></div>
+                    <div class="spec-title">CPU</div>
+                    <div class="spec-value"></div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <div class="spec-title">Number of Cores</div>
+                    <div class="spec-value"></div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon"><i class="fa-solid fa-camera"></i></div>
+                    <div class="spec-title">Camera</div>
+                    <div class="spec-value"></div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon"><i class="fa-solid fa-camera-rotate"></i></div>
+                    <div class="spec-title">Front camera</div>
+                    <div class="spec-value"></div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-icon"><i class="fa-solid fa-battery-three-quarters"></i></div>
+                    <div class="spec-title">Battery capacity</div>
+                    <div class="spec-value"></div>
+                </div>
+            </div>
+
+            <div class="product-description">
+                Enhanced capabilities thanks to an enlarged display of 6.7 inches and work without recharging throughout
+                the day. Incredible photos in weak, yes and in bright lighting the new system with two cameras <a
+                    href="#" class="more-link">more...</a>
+            </div>
+
+            <div class="action-buttons">
+                <button id="addWishBtn" class="cart-btn">Add Wishlist</button>
+                <button id="addCartBtn" class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="delivery-info">
+                <div class="info-item">
+                    <div class="info-icon"> <i class="fa-solid fa-truck-fast"></i></div>
+                    <div class="info-text">
+                        <div class="info-title">Free Delivery</div>
+                        <div class="info-value">1-3 day</div>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-solid fa-store"></i></div>
+                    <div class="info-text">
+                        <div class="info-title">In Stock</div>
+                        <div class="info-value">Yes</div>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-solid fa-square-check"></i></div>
+                    <div class="info-text">
+                        <div class="info-title">Guaranteed</div>
+                        <div class="info-value">1 year</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Description  -->
+    <section>
+        <div class="specs-details">
+            <div class="specs-section">
+                <h2 class="specs-section-title">Details</h2>
+                <p class="specs-description">
+                    Just as a book is judged by its cover, the first thing you notice when you pick up a modern device
+                    is its design. Nothing surprising, because advanced technologies allow manufacturers to create truly
+                    impressive products, leaving no room for mediocre solutions. And how good that in such realities our
+                    featured brands excel in quality craftsmanship. Both critics and mass consumers always praise the
+                    performance and aesthetics provided by these innovative products. The latest models, which
+                    incorporate cutting-edge technology, have caused real admiration among many users and experts alike.
+                </p>
+            </div>
+
+            <div class="specs-section">
+                <h2 class="specs-section-title">Screen</h2>
+                <div class="specs-table">
+                    <div class="specs-row">
+                        <div class="specs-property">Screen diagonal</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Screen type</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">The screen resolution</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">The screen refresh rate</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">The pixel density</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Touch screen</div>
+                        <div class="specs-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specs-section">
+                <h2 class="specs-section-title">CPU</h2>
+                <div class="specs-table">
+                    <div class="specs-row">
+                        <div class="specs-property">CPU</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Number of cores</div>
+                        <div class="specs-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specs-section">
+                <h2 class="specs-section-title">Camera</h2>
+                <div class="specs-table">
+                    <div class="specs-row">
+                        <div class="specs-property">Rear</div>
+                        <div class="specs-value"> </div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">front</div>
+                        <div class="specs-value"> </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specs-section">
+                <h2 class="specs-section-title">Storage</h2>
+                <div class="specs-table">
+                    <div class="specs-row">
+                        <div class="specs-property">RAM</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Memory</div>
+                        <div class="specs-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specs-section">
+                <h2 class="specs-section-title">General</h2>
+                <div class="specs-table">
+                    <div class="specs-row">
+                        <div class="specs-property">Year</div>
+                        <div class="specs-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specs-section">
+                <h2 class="specs-section-title">Power</h2>
+                <div class="specs-table">
+                    <div class="specs-row">
+                        <div class="specs-property">Battery</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Battery life</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Charging</div>
+                        <div class="specs-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specs-section">
+                <h2 class="specs-section-title">Features</h2>
+                <div class="specs-table">
+                    <div class="specs-row">
+                        <div class="specs-property"> 
+                            Noise cancellation</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Wireless charging</div>
+                        <div class="specs-value"></div>
+                    </div>
+                    <div class="specs-row">
+                        <div class="specs-property">Water resistance</div>
+                        <div class="specs-value"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- scrolling -->
+ 
+              
+    <section>
+        <div class="related-products">
+          <h2 class="related-title">Related Products</h2>
+          <div class="products-conte" id="related-container">
+            <!-- Դինամիկ ապրանքներ կգեներացվեն այստեղ -->
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+   
+        <!-- Chat BTN -->
+        <div class="message">
+            <button id="chatBtn">
+                <i class="fa-solid fa-message"></i>
+            </button>
+        </div>
+        <div class="chat-modal" id="chatModal">
+            <div class="chat-header">
+                <h3>Question</h3>
+                <button class="close-chat" id="closeChat">&times;</button>
+            </div>
+            <div class="chat-body">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+374 23152016" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Please write the question..." required></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">Send</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer" id="footer-link">
+        <div class="footer-container">
+            <!-- Company Info -->
+            <div class="footer-column company-info">
+                <div class="footer-logo">
+                    <img src="./img/page style/logo 1.png" alt="TechZone Logo">
+                </div>
+                <p>Miscellaneous equipment specialty store</p>
+                <div class="social-links">
+       <a href="https://www.instagram.com/_tech_z0ne_/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+            </div>
+            <!-- Contact Info -->
+            <div class="footer-column">
+                <h4 class="footer-title">Contact Us</h4>
+                <div class="contact-info">
+                    <p class="address"> 1 Movses Khorenatsi Street, Vagharshapat, Armenia</p>
+                    <p class="phone"> +374 23152016</p>
+                    <p class="email"> info@TechZone.com</p>
+                </div>
+            </div>
+            <!-- Map -->
+            <div class="footer-column">
+                <h4 class="footer-title">Location</h4>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1580.4049884460617!2d44.28787868909185!3d40.16241582863755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406a94d170000eb9%3A0x214e65b0d0e4d9de!2sEchmiadzin%20State%20College%20after%20Vardges%20Hamazaspyan!5e1!3m2!1sen!2sus!4v1734327853330!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/single.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/src.js"></script>
+
+
+
+</body>
+
+</html>

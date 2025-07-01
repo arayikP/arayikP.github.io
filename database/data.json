@@ -1,0 +1,1965 @@
+{
+  "phones": [
+    {
+      "code": "APH15PM",
+      "model": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 1199.99,
+      "images": [
+        "/img/products/iphone-15-pro-max.png",
+        "/img/products/iphone-15-pro-max-side.png",
+        "/img/products/iphone-15-pro-max-camera.png"
+      ],
+      "screen": {
+        "size": "6.7 inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "1290 x 2796",
+        "pixel_density": 460,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple A17 Pro",
+        "cores": 6
+      },
+      "ram":[ "8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "48 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "4441 mAh",
+      "battery_life": "12 hours",
+      "charging": "20 W",
+      "category": "phone"
+    },
+    {
+      "code": "APH15P",
+      "category": "phone",
+      "model": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 999.99,
+      "images": [
+        "/img/products/iphone-15-pro.png",
+        "/img/products/iphone-15-pro-side.png",
+        "/img/products/iphone-15-pro-camera.png"
+      ],
+      "screen": {
+        "size": "6.1 inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "1179 x 2556",
+        "pixel_density": 461,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple A17 Pro",
+        "cores": 6
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "48 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "3274 mAh",
+      "battery_life": "11 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "APH15",
+      "category": "phone",
+      "model": "Apple iPhone 15",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 799.99,
+      "images": [
+        "/img/products/iphone-15.png",
+        "/img/products/iphone-15-side.png",
+        "/img/products/iphone-15-camera.png"
+      ],
+      "screen": {
+        "size": "6.1 inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "1179 x 2556",
+        "pixel_density": 461,
+        "refresh_rate": 60,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple A16 Bionic",
+        "cores": 6
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "48 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "3349 mAh",
+      "battery_life": "20 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "APH14PM",
+      "category": "phone",
+      "model": "Apple iPhone 14 Pro Max",
+      "brand": "Apple",
+      "year": 2022,
+      "price": 999.99,
+      "images": [
+        "img/products/iphone-14-pro-max.png",
+        "img/products/iphone-15-pro-max-side.png",
+        "img/products/iphone-15-pro-max-camera.png"
+      ],
+      "screen": {
+        "size": "6.7 inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "1290 x 2796",
+        "pixel_density": 460,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple A16 Bionic",
+        "cores": 6
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "48 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP60"
+      },
+      "battery": "4323 mAh",
+      "battery_life": "10 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "APH13PM",
+      "category": "phone",
+      "model": "Apple iPhone 13 Pro Max",
+      "brand": "Apple",
+      "year": 2021,
+      "price": 899.99,
+      "images": [
+        "img/products/iphone-13-pro-max.png",
+        "img/products/iphone-13-pro-max-side.png",
+        "img/products/iphone-13-pro-max-camera.png"
+      ],
+      "screen": {
+        "size": "6.7 inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "1284 x 2778",
+        "pixel_density": 458,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple A15 Bionic",
+        "cores": 6
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "12 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "4352 mAh",
+      "battery_life": "10 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "APH13",
+      "category": "phone",
+      "model": "Apple iPhone 13",
+      "brand": "Apple",
+      "year": 2021,
+      "price": 699.99,
+      "images": [
+        "img/products/iphone-13.png",
+        "img/products/iphone-13-side.png",
+        "img/products/iphone-13-camera.png"
+      ],
+      "screen": {
+        "size": "6.1 inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "1170 x 2532",
+        "pixel_density": 460,
+        "refresh_rate": 60,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple A15 Bionic",
+        "cores": 6
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "12 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "3240 mAh",
+      "battery_life": "10 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "SGS24U",
+      "category": "phone",
+      "model": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "year": 2024,
+      "price": 1299.99,
+      "images": [
+        "img/products/samsung-s24-ultra.png",
+        "img/products/samsung-s24-ultra-side.png",
+        "img/products/samsung-s24-ultra-camera.png"
+      ],
+      "screen": {
+        "size": "6.8 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "1440 x 3120",
+        "pixel_density": 515,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Snapdragon 8 Gen 3",
+        "cores": 8
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "200 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "5000 mAh",
+      "battery_life": "12 hours",
+      "charging": "65 W"
+    },
+    {
+      "code": "SGS24P",
+      "category": "phone",
+      "model": "Samsung Galaxy S24 Plus",
+      "brand": "Samsung",
+      "year": 2024,
+      "price": 999.99,
+      "images": [
+        "img/products/samsung-s24-plus.png",
+        "img/products/samsung-s24-plus-side.png",
+        "img/products/samsung-s24-plus-camera.png"
+      ],
+      "screen": {
+        "size": "6.7 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "1440 x 3088",
+        "pixel_density": 513,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Snapdragon 8 Gen 3",
+        "cores": 8
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "50 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "4900 mAh",
+      "battery_life": "13 hours",
+      "charging": "45 W"
+    },
+    {
+      "code": "SGS24",
+      "category": "phone",
+      "model": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "year": 2024,
+      "price": 799.99,
+      "images": [
+        "img/products/samsung-s24.png",
+        "img/products/samsung-s24-side.png",
+        "img/products/samsung-s24-camera.png"
+      ],
+      "screen": {
+        "size": "6.2 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "1080 x 2340",
+        "pixel_density": 416,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Snapdragon 8 Gen 3",
+        "cores": 8
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "50 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "4000 mAh",
+      "battery_life": "13 hours",
+      "charging": "45 W"
+    },
+    {
+      "code": "SGS23U",
+      "category": "phone",
+      "model": "Samsung Galaxy S23 Ultra",
+      "brand": "Samsung",
+      "year": 2023,
+      "price": 1099.99,
+      "images": [
+        "img/products/samsung-s23-ultra.png",
+        "img/products/samsung-s23-ultra-side.png",
+        "img/products/samsung-s23-ultra-camera.png"
+      ],
+      "screen": {
+        "size": "6.8 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "1440 x 3088",
+        "pixel_density": 500,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Snapdragon 8 Gen 2",
+        "cores": 8
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "200 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "5000 mAh",
+      "battery_life": "14 hours",
+      "charging": "45 W"
+    },
+    {
+      "code": "SGZ5",
+      "category": "phone",
+      "model": "Samsung Galaxy Z Fold 5",
+      "brand": "Samsung",
+      "year": 2023,
+      "price": 1799.99,
+      "images": [
+        "img/products/samsung-z-fold-5.png",
+        "img/products/samsung-z-fold-5-side.png",
+        "img/products/samsung-z-fold-5-camera.png"
+      ],
+      "screen": {
+        "size": "7.6 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "1812 x 2176",
+        "pixel_density": 374,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Snapdragon 8 Gen 2",
+        "cores": 8
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "50 MP",
+        "front": "4 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "4400 mAh",
+      "battery_life": "12 hours",
+      "charging": "45 W"
+    },
+    {
+      "code": "SGF5",
+      "category": "phone",
+      "model": "Samsung Galaxy Z Flip 5",
+      "brand": "Samsung",
+      "year": 2023,
+      "price": 999.99,
+      "images": [
+        "img/products/samsung-z-flip-5.png",
+        "img/products/samsung-z-flip-5-side.png",
+        "img/products/samsung-z-flip-5-camera.png"
+      ],
+      "screen": {
+        "size": "6.7 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "1080 x 2640",
+        "pixel_density": 425,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Snapdragon 8 Gen 2",
+        "cores": 8
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "12 MP",
+        "front": "10 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "3700 mAh",
+      "battery_life": "10 hours",
+      "charging": "25 W"
+    },
+    {
+      "code": "APH14",
+      "category": "phone",
+      "model": "Apple iPhone 14",
+      "brand": "Apple",
+      "year": 2022,
+      "price": 799.99,
+      "images": [
+        "img/products/iphone-14.png",
+        "img/products/iphone-14-side.png",
+        "img/products/iphone-14-camera.png"
+      ],
+      "screen": {
+        "size": "6.1 inch",
+        "type": "Super Retina XDR OLED",
+        "resolution": "1170 x 2532",
+        "pixel_density": 460,
+        "refresh_rate": 60,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple A15 Bionic",
+        "cores": 6
+      },
+      "ram": ["8 GB"],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "camera": {
+        "rear": "12 MP",
+        "front": "12 MP"
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "3279 mAh",
+      "battery_life": "10 hours",
+      "charging": "20 W"
+    }
+  ],
+  "smartwatches": [
+    {
+      "code": "AWS9",
+      "category": "smartwatch",
+      "model": "Apple Watch Series 9",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 399.99,
+      "images": [
+        "img/products/apple-watch-9.png",
+        "img/products/apple-watch-9-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.9 inch",
+        "type": "LTPO OLED",
+        "resolution": "484 x 396",
+        "pixel_density": 326,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Apple S9",
+        "cores": 4
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP6X"
+      },
+      "battery": "308 mAh",
+      "battery_life": "16 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "AWU2",
+      "category": "smartwatch",
+      "model": "Apple Watch Ultra 2",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 799.99,
+      "images": [
+        "img/products/apple-watch-ultra-9.png",
+        "img/products/apple-watch-ultra-2-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "2.0 inch",
+        "type": "LTPO OLED",
+        "resolution": "502 x 410",
+        "pixel_density": 338,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Apple S9",
+        "cores": 4
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP6X"
+      },
+      "battery": "564 mAh",
+      "battery_life": "22 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "AWS8",
+      "category": "smartwatch",
+      "model": "Apple Watch Series 8",
+      "brand": "Apple",
+      "year": 2022,
+      "price": 349.99,
+      "images": [
+        "img/products/apple-watch-series-8.png",
+        "img/products/apple-watch-series-8-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.9 inch",
+        "type": "LTPO OLED",
+        "resolution": "484 x 396",
+        "pixel_density": 326,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Apple S8",
+        "cores": 4
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP6X"
+      },
+      "battery": "308 mAh",
+      "battery_life": "17 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "AWSE2",
+      "category": "smartwatch",
+      "model": "Apple Watch SE 2",
+      "brand": "Apple",
+      "year": 2022,
+      "price": 249.99,
+      "images": [
+        "img/products/apple-watch-se-2.png",
+        "img/products/apple-watch-se-2-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.78 inch",
+        "type": "LTPO OLED",
+        "resolution": "448 x 368",
+        "pixel_density": 326,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Apple S8",
+        "cores": 4
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP6X"
+      },
+      "battery": "296 mAh",
+      "battery_life": "18 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "SGW6C",
+      "category": "smartwatch",
+      "model": "Samsung Galaxy Watch 6 Classic",
+      "brand": "Samsung",
+      "year": 2023,
+      "price": 399.99,
+      "images": [
+        "img/products/samsung-watch-6-classic.png",
+        "img/products/samsung-watch-6-classic-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.5 inch",
+        "type": "Super AMOLED",
+        "resolution": "480 x 480",
+        "pixel_density": 330,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Exynos W930",
+        "cores": 2
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "425 mAh",
+      "battery_life": "17 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "SGW6",
+      "category": "smartwatch",
+      "model": "Samsung Galaxy Watch 6",
+      "brand": "Samsung",
+      "year": 2023,
+      "price": 299.99,
+      "images": [
+        "img/products/samsung-watch-6.png",
+        "img/products/samsung-galaxy-watch-6-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.4 inch",
+        "type": "Super AMOLED",
+        "resolution": "480 x 480",
+        "pixel_density": 330,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Exynos W930",
+        "cores": 2
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "300 mAh",
+      "battery_life": "14 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "AWS7",
+      "category": "smartwatch",
+      "model": "Apple Watch Series 7",
+      "brand": "Apple",
+      "year": 2021,
+      "price": 299.99,
+      "images": [
+        "img/products/apple-watch-7.png",
+        "img/products/apple-watch-series-7-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.9 inch",
+        "type": "LTPO OLED",
+        "resolution": "484 x 396",
+        "pixel_density": 326,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Apple S7",
+        "cores": 4
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IP6X"
+      },
+      "battery": "309 mAh",
+      "battery_life": "17 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "AWSE",
+      "category": "smartwatch",
+      "model": "Apple Watch SE",
+      "brand": "Apple",
+      "year": 2020,
+      "price": 199.99,
+      "images": [
+        "img/products/apple-watch-se.png",
+        "img/products/apple-watch-se-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.78 inch",
+        "type": "LTPO OLED",
+        "resolution": "448 x 368",
+        "pixel_density": 326,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Apple S5",
+        "cores": 2
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP6X"
+      },
+      "battery": "296 mAh",
+      "battery_life": "14 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "SGW5",
+      "category": "smartwatch",
+      "model": "Samsung Galaxy Watch 5",
+      "brand": "Samsung",
+      "year": 2022,
+      "price": 279.99,
+      "images": [
+        "img/products/samsung-watch-5.png",
+        "img/products/samsung-watch-5-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.4 inch",
+        "type": "Super AMOLED",
+        "resolution": "450 x 450",
+        "pixel_density": 321,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Exynos W920",
+        "cores": 2
+      },
+      "ram": ["4 GB"],
+      "memory": ["64 GB"],
+      "camera": {
+        "front": [
+          "N/A"
+        ]
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "battery": "284 mAh",
+      "battery_life": "18 hours",
+      "charging": "20 W"
+    },
+    {
+      "code": "SGW5P",
+      "category": "smartwatch",
+      "model": "Samsung Galaxy Watch 5 Pro",
+      "brand": "Samsung",
+      "year": 2022,
+      "price": 449.99,
+      "images": [
+        "img/products/samsung-watch-5-pro.png",
+        "img/products/samsung-watch-5-pro-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.4 inch",
+        "type": "Super AMOLED",
+        "resolution": "450 x 450",
+        "pixel_density": 321,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Exynos W920",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "memory": ["64 GB"],
+      "ram": ["4 GB"],
+      "battery": "590 mAh",
+      "battery_life": "14 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "SGW4",
+      "category": "smartwatch",
+      "model": "Samsung Galaxy Watch 4",
+      "brand": "Samsung",
+      "year": 2021,
+      "price": 249.99,
+      "images": [
+        "img/products/samsung-watch-4.png",
+        "img/products/samsung-watch-4-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.4 inch",
+        "type": "Super AMOLED",
+        "resolution": "450 x 450",
+        "pixel_density": 321,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Exynos W920",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "memory": ["64 GB"],
+      "ram": ["4 GB"],
+      "battery": "247 mAh",
+      "battery_life": "10 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "SGW4C",
+      "category": "smartwatch",
+      "model": "Samsung Galaxy Watch 4 Classic",
+      "brand": "Samsung",
+      "year": 2021,
+      "price": 349.99,
+      "images": [
+        "img/products/samsung-watch-4-classic.png",
+        "img/products/no-photo.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "1.4 inch",
+        "type": "Super AMOLED",
+        "resolution": "450 x 450",
+        "pixel_density": 321,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Exynos W920",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IP68"
+      },
+      "memory": ["64 GB"],
+      "ram": ["4 GB"],
+      "battery": "361 mAh",
+      "battery_life": "14 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    }
+  ],
+  "earbuds": [
+    {
+      "code": "APPRO2",
+      "category": "earbuds",
+      "model": "Apple AirPods Pro 2",
+      "brand": "Apple",
+      "year": 2022,
+      "price": 249.99,
+      "images": [
+        "img/products/airpods-pro-2.png",
+        "img/products/airpods-pro-2-side.png",
+        "img/products/airpods-pro-2-buttom.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "N/A"
+      },
+      "processor": {
+        "model": "Apple H2",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX4"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "523 mAh",
+      "battery_life": "30 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "AP4",
+      "category": "earbuds",
+      "model": "Apple AirPods 4",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 179.99,
+      "images": [
+        "img/products/airpods-pro-4.png",
+        "img/products/airpods-pro-4-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple H1",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX4"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "410 mAh",
+      "battery_life": "30 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+
+    
+    {
+      "code": "AP3",
+      "category": "earbuds",
+      "model": "Apple AirPods 3",
+      "brand": "Apple",
+      "year": 2021,
+      "price": 149.99,
+      "images": [
+        "img/products/airpods-pro-4.png",
+        "img/products/airpods-pro-4-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple H1",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX4"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "400 mAh",
+      "battery_life": "30 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "APMAX",
+      "category": "earbuds",
+      "model": "Apple AirPods Max",
+      "brand": "Apple",
+      "year": 2020,
+      "price": 549.99,
+      "images": [
+        "/img/products/airpods-max.png",
+        "img/products/airpods-max-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple H1",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "2000 mAh",
+      "battery_life": "20 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "APPRO",
+      "category": "earbuds",
+      "model": "Apple AirPods Pro",
+      "brand": "Apple",
+      "year": 2019,
+      "price": 199.99,
+      "images": [
+        "img/products/airpods-pro.png",
+        "img/products/no-photo.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple H1",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX4"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "519 mAh",
+      "battery_life": "30 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "SGP2",
+      "category": "earbuds",
+      "model": "Samsung Galaxy Buds Pro 2",
+      "brand": "Samsung",
+      "year": 2022,
+      "price": 229.99,
+      "images": [
+        "img/products/buds-2-pro.png",
+        "img/products/buds-2-pro-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Samsung BT",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX7"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "515 mAh",
+      "battery_life": "9 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "SGB2",
+      "category": "earbuds",
+      "model": "Samsung Galaxy Buds 2",
+      "brand": "Samsung",
+      "year": 2021,
+      "price": 149.99,
+      "images": [
+        "img/products/buds-2.png",
+        "img/products/buds-2-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Samsung BT",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX2"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "472 mAh",
+      "battery_life": "5 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "SGBP",
+      "category": "earbuds",
+      "model": "Samsung Galaxy Buds Pro",
+      "brand": "Samsung",
+      "year": 2021,
+      "price": 199.99,
+      "images": [
+        "img/products/budsPro.png",
+        "img/products/budsPro-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Samsung BT",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX7"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "500 mAh",
+      "battery_life": "9 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "SGBL",
+      "category": "earbuds",
+      "model": "Samsung Galaxy Buds Live",
+      "brand": "Samsung",
+      "year": 2020,
+      "price": 169.99,
+      "images": [
+        "img/products/budsLive.png",
+        "img/products/budsLive-side.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Samsung BT",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "yes",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX2"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "472 mAh",
+      "battery_life": "8 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    },
+    {
+      "code": "SGB+",
+      "category": "earbuds",
+      "model": "Samsung Galaxy Buds+",
+      "brand": "Samsung",
+      "year": 2020,
+      "price": 149.99,
+      "images": [
+        "img/products/budsPlus.png",
+        "img/products/budsPlus-side.avif",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "N/A",
+        "type": "N/A",
+        "resolution": "N/A",
+        "pixel_density": "N/A",
+        "refresh_rate": "N/A",
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Samsung BT",
+        "cores": 2
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "yes",
+        "water_resistance": "IPX2"
+      },
+      "memory": "N/A",
+      "ram": [
+        "N/A"
+      ],
+      "battery": "600 mAh",
+      "battery_life": "11 hours",
+      "charging": "20 W",
+      "camera": {
+        "rear": "N/A"
+      }
+    }
+  ],
+  "laptops": [
+    {
+      "code": "MBP16M3",
+      "category": "laptop",
+      "model": "Apple MacBook Pro 16 M3",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 2499.99,
+      "images": [
+        "img/products/macbook-16-m3.png",
+        "img/products/macbook-16-m3-side.png",
+        "img/products/macbook-16-m3-keyyy.png"
+      ],
+      "screen": {
+        "size": "16.2 inch",
+        "type": "Liquid Retina XDR",
+        "resolution": "3456 x 2234",
+        "pixel_density": 254,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple M3 Max",
+        "cores": 12
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "100 W",
+      "battery_life": "22 hours"
+    },
+    {
+      "code": "MBP14M3",
+      "category": "laptop",
+      "model": "Apple MacBook Pro 14 M3",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 1999.99,
+      "images": [
+        "img/products/macbook-14-m3.png",
+        "img/products/macbook-16-m3-side.png",
+        "img/products/macbook-16-m3-keyyy.png"
+      ],
+      "screen": {
+        "size": "14.2 inch",
+        "type": "Liquid Retina XDR",
+        "resolution": "3024 x 1964",
+        "pixel_density": 254,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple M3 Pro",
+        "cores": 12
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "70 W",
+      "battery_life": "20 hours"
+    },
+    {
+      "code": "MBA15M2",
+      "category": "laptop",
+      "model": "Apple MacBook Air 15 M2",
+      "brand": "Apple",
+      "year": 2023,
+      "price": 1299.99,
+      "images": [
+        "img/products/macbook-air-15-m2.png",
+        "img/products/macbook-air-15-m2-side.png",
+        "img/products/macbook-air-15-m2-keyyy.png"
+      ],
+      "screen": {
+        "size": "15.3 inch",
+        "type": "Liquid Retina",
+        "resolution": "2880 x 1864",
+        "pixel_density": 224,
+        "refresh_rate": 60,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple M2",
+        "cores": 8
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "66 W",
+      "battery_life": "18 hours"
+    },
+    {
+      "code": "MBA13M2",
+      "category": "laptop",
+      "model": "Apple MacBook Air 13 M2",
+      "brand": "Apple",
+      "year": 2022,
+      "price": 1099.99,
+      "images": [
+        "img/products/macbook-air-13-m2.png",
+        "img/products/macbook-air-13-m2-side.png",
+        "img/products/macbook-air-13-m2-keyyy.png"
+      ],
+      "screen": {
+        "size": "13.6 inch",
+        "type": "Liquid Retina",
+        "resolution": "2560 x 1664",
+        "pixel_density": 224,
+        "refresh_rate": 60,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple M2",
+        "cores": 8
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "52 W",
+      "battery_life": "18 hours"
+    },
+    {
+      "code": "MBP16M1",
+      "category": "laptop",
+      "model": "Apple MacBook Pro 16 M1",
+      "brand": "Apple",
+      "year": 2021,
+      "price": 2199.99,
+      "images": [
+        "img/products/macbook-pro-16-m1.png",
+        "img/products/macbook-pro-16-m1-keyyy.png",
+        "img/products/macbook-pro-16-m1-side.png"
+      ],
+      "screen": {
+        "size": "16.2 inch",
+        "type": "Liquid Retina XDR",
+        "resolution": "3456 x 2234",
+        "pixel_density": 254,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple M1 Max",
+        "cores": 10
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "100 W",
+      "battery_life": "21 hours"
+    },
+    {
+      "code": "MBP14M1",
+      "category": "laptop",
+      "model": "Apple MacBook Pro 14 M1",
+      "brand": "Apple",
+      "year": 2021,
+      "price": 1999.99,
+      "images": [
+        "img/products/macbook-pro-14-m1.png",
+        "img/products/macbook-pro-14-m1-keyyy.png",
+        "img/products/macbook-pro-14-m1-side.png"
+      ],
+      "screen": {
+        "size": "14.2 inch",
+        "type": "Liquid Retina XDR",
+        "resolution": "3024 x 1964",
+        "pixel_density": 254,
+        "refresh_rate": 120,
+        "touchscreen": "no"
+      },
+      "processor": {
+        "model": "Apple M1 Pro",
+        "cores": 8
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "70 W",
+      "battery_life": "17 hours"
+    },
+    {
+      "code": "SGB4U",
+      "category": "laptop",
+      "model": "Samsung Galaxy Book4 Ultra",
+      "brand": "Samsung",
+      "year": 2024,
+      "price": 2699.99,
+      "images": [
+        "img/products/samsung-book4-ultra.png",
+        "img/products/samsung-book4-ultra-keyyy.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "16 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "2880 x 1800",
+        "pixel_density": 212,
+        "refresh_rate": 120,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Intel Core Ultra 9 185H",
+        "cores": 16
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "graphics": "NVIDIA GeForce RTX 4070",
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "76 W",
+      "battery_life": "20 hours"
+    },
+    {
+      "code": "SGB4P",
+      "category": "laptop",
+      "model": "Samsung Galaxy Book4 Pro",
+      "brand": "Samsung",
+      "year": 2024,
+      "price": 1899.99,
+      "images": [
+        "img/products/samsung-book4-pro.png",
+        "img/products/samsung-book4-pro-keyyy.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "14 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "2880 x 1800",
+        "pixel_density": 243,
+        "refresh_rate": 120,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Intel Core Ultra 7 155H",
+        "cores": 16
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "63 W",
+      "battery_life": "16 hours"
+    },
+    {
+      "code": "SGB4",
+      "category": "laptop",
+      "model": "Samsung Galaxy Book4",
+      "brand": "Samsung",
+      "year": 2024,
+      "price": 1099.99,
+      "images": [
+        "img/products/samsung-book-4.png",
+        "img/products/samsung-book4-pro-keyyy.png",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "15.6 inch",
+        "type": "AMOLED",
+        "resolution": "1920 x 1080",
+        "pixel_density": 141,
+        "refresh_rate": 60,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Intel Core 5 120U",
+        "cores": 10
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "1080p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "54 W",
+      "battery_life": "15 hours"
+    },
+    {
+      "code": "SGB3P",
+      "category": "laptop",
+      "model": "Samsung Galaxy Book3 Pro",
+      "brand": "Samsung",
+      "year": 2023,
+      "price": 1449.99,
+      "images": [
+        "img/products/samsung-book-3-pro.png",
+        "img/products/samsung-book-3-keyyy.avif",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "14 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "2880 x 1800",
+        "pixel_density": 243,
+        "refresh_rate": 120,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Intel Core i7-1360P",
+        "cores": 12
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "720p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "63 W",
+      "battery_life": "10 hours"
+    },
+    {
+      "code": "SGB3",
+      "category": "laptop",
+      "model": "Samsung Galaxy Book3",
+      "brand": "Samsung",
+      "year": 2023,
+      "price": 999.99,
+      "images": [
+        "img/products/samsung-book-3.png",
+        "img/products/samsung-book-3-keyyy.avif",
+        "img/products/no-photo.png"
+      ],
+      "screen": {
+        "size": "15.6 inch",
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "1920 x 1080",
+        "pixel_density": 141,
+        "refresh_rate": 120,
+        "touchscreen": "yes"
+      },
+      "processor": {
+        "model": "Intel Core i5-1350P",
+        "cores": 12
+      },
+      "features": {
+        "noise_cancellation": "no",
+        "wireless_charging": "no",
+        "water_resistance": "no"
+      },
+      "camera": {
+        "rear": "720p"
+      },
+      "ram": [
+        "8 GB",
+        "16 GB",
+        " 32 GB"
+      ],
+      "memory": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+      ],
+      "charging": "54 W",
+      "battery_life": "10 hours"
+    }
+  ]
+}
