@@ -171,7 +171,7 @@ categoryCards.forEach((e) => {
 
     e.addEventListener('click', () => {
         // console.log(e.dataset.type);
-        location.href = `Prod-category.html?category=${e.dataset.type}`;
+        location.href = `prod-category.html?category=${e.dataset.type}`;
 
         fetch('../database/data.json')
             .then(res => res.json())
